@@ -1,0 +1,18 @@
+x = input("Today is which day?"/n)
+print ("Okay then today is ", x)
+y1 = [Chem,Maths,Phy,I2I,[Chem-Tutorial,COE-LAB]]
+y2 = [MSW,HSS,Phy-tutorial,[Chem-tutorial]]
+y3 = [Maths,Chem,HSS,Phy,[I2I,Chem]]
+y4 = [MSW,Maths,Maths-tutorial,[Phy-lab]]
+y5 = [Phy,Maths,I2I,HSS,[MSW-LAB]]
+if (x == "monday"):
+	print y1
+elif (x == "tuesday"):
+	print y2
+elif (x== "wednesday"):
+	print y3
+elif (x== "thursday"):
+	print y4
+elif (x== "friday"):
+	print y5
+print "Have a nice day"
