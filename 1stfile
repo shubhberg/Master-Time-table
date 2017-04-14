@@ -1,0 +1,22 @@
+def timetable(X):
+ x = str(X)
+ print ("Okay then today is ", x)
+ y1 = "Chem,Maths,Phy,I2I,Chem-Tutorial,COE-LAB"
+ y2 = "MSW,HSS,Phy-tutorial,Chem-Lab"
+ y3 = "Maths,Chem,HSS,Phy,I2I,Chem"
+ y4 = "MSW,Maths,Maths-tutorial,Phy-lab"
+ y5 = "Phy,Maths,I2I,HSS,MSW-LAB"
+ if (x == "monday"):
+        return (y1)
+ elif (x == "tuesday"):
+        return (y2)
+ elif (x == "wednesday"):
+        return (y3)
+ elif (x == "thursday"):
+        return (y4)
+ elif (x == "friday"):
+        return (y5)
+y = raw_input("Enter the today's day.")
+print timetable(y)
+print ("Have a nice day")
+
